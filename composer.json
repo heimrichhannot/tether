@@ -1,0 +1,42 @@
+{
+  "name": "heimrichhannot/tether",
+  "description": "A client-side library to make absolutely positioned elements attach to elements in the page efficiently.",
+  "type": "component",
+  "keywords": [
+    "css",
+    "less",
+    "mobile-first",
+    "responsive",
+    "front-end",
+    "framework",
+    "web"
+  ],
+  "homepage": "http://tether.io",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Zack Bloom",
+      "email": "zackbloom@gmail.com"
+    },
+    {
+      "name": "Adam Schwartz",
+      "email": "adam.flynn.schwartz@gmail.com"
+    }
+  ],
+  "require": {
+    "components/jquery": "<3.0"
+  },
+  "extra": {
+    "component": {
+      "scripts": [
+        "dist/js/*.js"
+      ],
+      "styles": [
+        "dist/css/tether.css"
+      ],
+      "shim": {
+        "deps": ["jquery"]
+      }
+    }
+  }
+}
