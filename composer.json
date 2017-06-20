@@ -1,7 +1,7 @@
 {
   "name": "heimrichhannot/tether",
   "description": "A client-side library to make absolutely positioned elements attach to elements in the page efficiently.",
-  "type": "component",
+  "type": "contao-component",
   "keywords": [
     "css",
     "less",
@@ -24,19 +24,7 @@
     }
   ],
   "require": {
+    "contao-components/installer": "^1.0.9",
     "components/jquery": "<3.0"
-  },
-  "extra": {
-    "component": {
-      "scripts": [
-        "dist/js/*.js"
-      ],
-      "styles": [
-        "dist/css/tether.css"
-      ],
-      "shim": {
-        "deps": ["jquery"]
-      }
-    }
   }
 }
